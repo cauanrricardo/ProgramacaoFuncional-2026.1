@@ -52,3 +52,6 @@ aplicaQuatroVezes f x = f (f (f (f x)))
 aplicaNVezes :: Int -> (t2 -> t2) -> t2 -> t2
 aplicaNVezes 0 f x = x --caso base
 aplicaNVezes n f x = aplicaNVezes (n - 1) f (f x) --caso recursivo
+
+cauanR'Ribeiro :: String
+cauanR'Ribeiro = "Meu nome e cauan!"
