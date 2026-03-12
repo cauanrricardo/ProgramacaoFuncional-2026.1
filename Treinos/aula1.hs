@@ -27,3 +27,28 @@ antecessor x = x - 1
 
 sucessor :: Num a => a -> a
 sucessor x = x + 1
+
+aplicaDuasVezes :: (t -> t) -> t -> t
+aplicaDuasVezes f x = f (f x) 
+ {- recebe uma função f
+ receber um valor x
+ aplicar f 2 vezes em x
+
+ aplicaDuasVezes dobro 3
+  dobro de 3 = 6
+  primeira vez: dobro 3 = 6
+  segunda vez: dobro 6 = 12 -}
+
+incrementa :: Num a => a -> a
+incrementa x = x + 1
+
+aplicaTresVezes :: (t -> t) -> t -> t
+aplicaTresVezes f x = f (f (f x))
+
+aplicaQuatroVezes :: (t -> t) -> t -> t
+aplicaQuatroVezes f x = f (f (f (f x)))
+
+
+aplicaNVezes :: Int -> (t2 -> t2) -> t2 -> t2
+aplicaNVezes 0 f x = x --caso base
+aplicaNVezes n f x = aplicaNVezes (n - 1) f (f x) --caso recursivo
