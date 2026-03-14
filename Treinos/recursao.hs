@@ -33,8 +33,8 @@ conteAte 0 = 0 --caso base
 conteAte n = 1 + conteAte (n - 1)
 {-- 5 = 1 + contaAte (4)--}
 
-listaAte 0 = 0 --caso base
-listaAte 
+listaAte 0 = [0] --caso base
+listaAte n = n : listaAte(n - 1)
 
 somaLista [] = 0
 somaLista (x:xs) = x + somaLista xs
