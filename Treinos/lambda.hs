@@ -6,7 +6,7 @@ novaLista = map(\x -> x + 1) lista
 mutiplicarPorDois = map(\x -> x * 2) lista
 
 --ou usar (+) seção de operador
-
+-- isso funciona por causa do currying
 novaListaSoma = map (+1) lista
 novaListaPorDois = map (*2) lista
 
@@ -50,8 +50,9 @@ lista2 = [5,10,15]
 resultadoLista2 = map(\x -> x + 2) lista2
 
 --usar filter pra <= 8
-lista3 = [2,5,8,10,1,7]
+lista3 = [2,5,8,10,1,7,10,19,29,9,12]
 resultadoLista3 = filter(\x -> x <= 8) lista3
+resultadoSimplificado = filter (<=8) lista3
 
 -- filtar apenas numeros inpares e mutiplicar - los
 lista4 = [1,2,3,4,5]
