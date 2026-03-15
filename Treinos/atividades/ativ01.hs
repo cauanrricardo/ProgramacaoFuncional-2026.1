@@ -25,12 +25,16 @@ digs n
 -- digs 123
 -- [1,2,3]
 
+
 -- função 02: somar os módulos das entradas de uma lista de inteiros
 
 sabs :: [Int] -> Int
-sabs ls =0
-maximum' :: [Int] -> Int
+sabs [] = 0
+sabs (x:xs) = abs x + sabs xs
+
+
 -- função 3: retornar o maior valor absoluto  de uma lista de inteiros. de 
+maximum' :: [Int] -> Int
 maximum' ls = 0 
 
 -- função 4: retorna a frequência de um caractere numa string
