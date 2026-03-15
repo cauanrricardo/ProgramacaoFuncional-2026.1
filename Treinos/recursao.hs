@@ -38,3 +38,8 @@ listaAte n = n : listaAte(n - 1)
 
 somaLista [] = 0
 somaLista (x:xs) = x + somaLista xs
+
+
+maximum'' :: [Int] -> Int
+maximum'' [x] = abs x                     -- se só tem um item, o maior é ele mesmo (absoluto)
+maximum'' (x:xs) = max (abs x) (maximum'' xs) -- compara o absoluto do primeiro com o maior do resto

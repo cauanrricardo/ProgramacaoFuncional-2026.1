@@ -34,10 +34,12 @@ sabs (x:xs) = abs x + sabs xs
 
 
 -- função 3: retornar o maior valor absoluto  de uma lista de inteiros. de 
+
 maximum' :: [Int] -> Int
-maximum' ls = 0 
+maximum' ls = maximum (map abs ls) -- trasnformar em abs e dps pega o max
+
 
 -- função 4: retorna a frequência de um caractere numa string
 freq:: String -> Char  -> Int 
-freq s ch = 0
+freq s ch = length (filter(\x -> x == ch) s)
 
