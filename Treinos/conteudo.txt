@@ -1,0 +1,55 @@
+conteúdotxt
+1 de 2
+
+    Programação funcional
+    professor Ricardo Reis
+    ﻿
+    1 . Introdução
+    *Paradigma funcional e a linguagem Haskell
+    *Modo iterativo e implementação direta, ghc e ghci
+    * tipo de dados em Haskell
+    *  e Operadores da linguagem
+    * Tipos de dados e o comando :type\:t\:t, classes de tipos
+    * Usando modo iterativo como uma calculadora
+    ﻿
+    2. funções
+    * sintaxe de funções
+    * verificação  de tipos de funções
+    definindo e * recarregamento de scripts no ghci  , :m\:r, :t
+    * funções como argumento de outra função
+    * funções lambda
+       * Funções curry implícitas
+    Argumentos vazios 
+      * subfunções usando where\lei in
+       * Utilizando recursividade e técnicas de recursão
+       
+       3. Listas e tuplas
+    * Sintaxe em listas
+    * gerador de lista
+    * Acesso a elenento , !!
+    * concatenação, operador :,,   de listas
+    uso de strings  
+    * listas avançadas
+    * listas infinitas
+    * sintaxe em tuplas
+    * listas de tuplas
+    * recursividade com listas
+    ﻿
+       4. * Controle de Fluxo
+       * Operador if then else
+       * Uso de guardas, |
+       * Casamento de padrões
+       ** ** usando argumentos simples
+       ** usando tuplas
+       *usando listas
+       ** aplicando recursividade
+       * Interrupção do fluxo de execução
+       
+       5. tipos Algébricos
+       * Tipos e construtores
+       * Enumerações 
+       * Construtores com argumento
+       * Maybe e Either
+       * Estruturas recursivas
+       
+

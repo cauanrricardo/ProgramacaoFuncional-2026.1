@@ -1,0 +1,59 @@
+prelúdiotxt
+2 de 2
+
+    Prelúdio Haskell
+    ﻿
+    Operadores 
+    = + - * / 
+    ++, ^ 
+    and or not
+    > >= < <= == /=
+    ﻿
+    Matemática
+    * max
+    * min
+    * mod
+    * div
+    - abs
+    * signum
+    * sqrt
+    * trucate
+    ceiling
+    floor  
+    exp
+    sin\cos\tan
+    ﻿
+    ﻿
+    listas e strings
+    * head
+    * last
+    * tail
+    * init
+    * length
+    * null
+    * maximun
+    * minimum
+    * take
+    * drop
+    * elem/notelem
+    * reverse
+    * repeat
+    * replicate
+    * zip
+    * prod
+    * map
+       *zipWith
+       * filter 
+       * foldr\foldl
+       * span
+       *break
+       * splitat
+       * eords\unwords
+       * lines\unlines
+       
+       tuplas
+       * fst \ snd
+       * zip\unzip
+       
+       
+

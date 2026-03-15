@@ -1,0 +1,15 @@
+algumas regrastxt
+1 de 2
+
+    implementar respostas somente até  o conteúdo antes da publicação da atividade. 
+    ﻿
+    use funções de auxílio ou internas com o where caso a solução demande. Cuidado para não usar nomes já usados no prelúdio.
+    ﻿
+    Não modifique os nomes que foram estabelecidos para as funções muito menos as assinaturas. É preciso funcionar conforme definição. Não é argumento válido remover a assinatura afim de que a função funcione em seguida .
+    ﻿
+    Preencha identificação ou perderá a atividade.
+    ﻿
+    implemente corretamente as funções ou deixe-as do modo como no arquivo hs dado. Se uma das funções executar um erro de interpretação então toda a atividade será perdida e nota alguma será calculada. 
+    ﻿
+    ﻿
+
