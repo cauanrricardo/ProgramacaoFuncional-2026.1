@@ -25,7 +25,7 @@ conteúdotxt
        
        3. Listas e tuplas
     * Sintaxe em listas
-    * gerador de lista
+    * gerador de listaa
     * Acesso a elenento , !!
     * concatenação, operador :,,   de listas
     uso de strings  

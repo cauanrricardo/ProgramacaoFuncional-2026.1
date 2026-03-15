@@ -23,7 +23,6 @@ prelúdiotxt
     exp
     sin\cos\tan
     ﻿
-    ﻿
     listas e strings
     * head
     * last
