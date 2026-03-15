@@ -25,7 +25,6 @@ digs n
 -- digs 123
 -- [1,2,3]
 
-
 -- função 02: somar os módulos das entradas de uma lista de inteiros
 
 sabs :: [Int] -> Int

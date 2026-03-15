@@ -18,6 +18,7 @@ contaDig 12 < 10 nao
 2 < 10 sim - = 1 + 1 + 1 = 3
 --}
 
+
 somaDig :: Int -> Int
 somaDig n
     | n < 10 = n
