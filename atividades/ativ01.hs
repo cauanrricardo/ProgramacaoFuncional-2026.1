@@ -6,14 +6,16 @@
 
 -- identificação
 nome = "Cauan Ricardo"
+
 matricula = "569566"
 
--- função 01: transformar inteiro na lista de seus dígitos 
+-- função 01: transformar inteiro na lista de seus dígitos
 
-digs:: Int -> [Int]
-digs n 
-    | n < 10 = [n]
-    | otherwise = digs (div n 10) ++ [mod n 10]
+digs :: Int -> [Int]
+digs n =
+  if n < 10
+    then [n]
+    else digs (div n 10) ++ [mod n 10]
 
 {--
 123 div 10 = 12 ++ [123 mod 10 = 3] - digs 12 ++ [3]
@@ -29,16 +31,13 @@ digs n
 
 sabs :: [Int] -> Int
 sabs [] = 0
-sabs (x:xs) = abs x + sabs xs
+sabs (x : xs) = abs x + sabs xs
 
-
--- função 3: retornar o maior valor absoluto  de uma lista de inteiros. de 
+-- função 3: retornar o maior valor absoluto  de uma lista de inteiros. de
 
 maximum' :: [Int] -> Int
 maximum' ls = maximum (map abs ls) -- trasnformar em abs e dps pega o max
 
-
 -- função 4: retorna a frequência de um caractere numa string
-freq:: String -> Char  -> Int 
-freq s ch = length (filter(\x -> x == ch) s)
-
+freq :: String -> Char -> Int
+freq s ch = length (filter (\x -> x == ch) s)
