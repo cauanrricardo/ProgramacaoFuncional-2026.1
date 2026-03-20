@@ -11,7 +11,7 @@ O foco da disciplina é o paradigma funcional, explorando conceitos como imutabi
 - **`listas/`**: Exercícios das listas dos professores Ricardo e Wladimir.
 - **`recursao/`**: Exemplos específicos focados em lógica recursiva.
 - **`preludio.txt`**: Definições e funções base utilizadas durante as aulas.
-- **`conteudo.txt`**: Notas e guia de tópicos abordados.
+- **`conteudo.txt`**: Notas e guia de tópicos abordados em sala de aula.
 
 ## Tecnologias e Ferramentas
 - Linguagem utilizada: [Haskell]
