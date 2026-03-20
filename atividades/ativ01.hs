@@ -5,7 +5,7 @@
 -- Professor Ricardo Reis
 
 -- identificação
-nome = "Cauan Ricardo"
+nome = "Cauan Ricardo Ribeiro"
 
 matricula = "569566"
 
