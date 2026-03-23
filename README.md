@@ -16,6 +16,5 @@ O foco da disciplina é o paradigma funcional, explorando conceitos como imutabi
 ## Tecnologias e Ferramentas
 - Linguagem utilizada: [Haskell]
 - Compilador/Interpretador: [GHCi]
-
 ---
 Desenvolvido por [Cauan Ricardo Ribeiro] - Aluno de Engenharia de Software (UFC)
