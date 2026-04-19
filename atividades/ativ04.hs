@@ -12,17 +12,18 @@ replace text from to
 -- 2
 lsSplit :: [Int] -> ([Int], Int, [Int])
 lsSplit [] = ([], 0, [])
-lsSplit (pivo:xs) = (menores, pivo, maiores)
+lsSplit ls = (antes, maior, depois)
   where
-    menores = [x | x <- xs, x <= pivo]
-    maiores = [x | x <- xs, x > pivo]
+    maior = maximum ls
+    antes = takeWhile (/= maior) ls
+    depois = tail (dropWhile (/= maior) ls)
 
 -- 3
 selectionSort :: Ord a => [a] -> [a]
 selectionSort [] = []
-selectionSort ls = menor : selectionSort (remover menor ls)
+selectionSort ls = maior : selectionSort (remover maior ls)
   where
-    menor = minimum ls
+    maior = maximum ls
     remover _ [] = []
     remover m (x:xs)
       | m == x    = xs
