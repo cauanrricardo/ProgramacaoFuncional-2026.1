@@ -28,3 +28,4 @@ selectionSort ls = maior : selectionSort (remover maior ls)
     remover m (x:xs)
       | m == x    = xs
       | otherwise = x : remover m xs
+      

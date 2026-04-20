@@ -29,3 +29,4 @@ words' (x:xs)
     removerPalavra (z:zs)
         | z == ' '  = zs
         | otherwise = removerPalavra zs
+        
