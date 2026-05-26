@@ -14,5 +14,15 @@ resultado = foldl (+) 0 [1,2,3,4,5]
 somaLista [] = 0
 somaLista (x:xs) = x + somaLista xs
 
+-- exercicio 01
+somaFold :: [Int] -> Int
+somaFold xs = foldl (+) 0 xs
 
 
+-- exercicio 02
+tamanhoFold :: [a] -> Int
+tamanhoFold xs = foldl (\acc _ -> acc + 1) 0 xs
+
+-- exercicio 03
+produtoFold :: [Int] -> Int
+produtoFold xs = foldl (*) 1 xs
